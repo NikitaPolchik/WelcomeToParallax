@@ -9,10 +9,8 @@ function splitScroll() {
     triggerHook: 0,
   })
     .setPin(".about-title h2")
-    .addIndicators()
+    // .addIndicators()
     .addTo(controller);
 }
 
 splitScroll();
-
-// just another line of code
